@@ -11,7 +11,7 @@ import SignUpPage from './routes/signUp'
 const RouteSwitch = () => {
 
     return (
-        <HashRouter>
+        <HashRouter basename='https://gl0git.github.io/NoteSharingAppFrontend/'>
             <Routes>
                 <Route path='/' element={<App />} />
                 <Route path='/login' element={<LoginPage />} />
