@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NoteShare/static/css/main.7002ae86.css",
+    "main.js": "/NoteShare/static/js/main.46c5c956.js",
+    "index.html": "/NoteShare/index.html",
+    "main.7002ae86.css.map": "/NoteShare/static/css/main.7002ae86.css.map",
+    "main.46c5c956.js.map": "/NoteShare/static/js/main.46c5c956.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7002ae86.css",
+    "static/js/main.46c5c956.js"
+  ]
+}
