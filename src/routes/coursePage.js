@@ -53,7 +53,7 @@ function CoursePage() {
         <div className='course-search-add'>
           <div className='course-dropdown'><SearchbarDropdown placeholder='Search for a course' options={Courses} onInputChange={onInputChange} page='notes' hrefAdditionals={`/${university}`} /></div>
           <button className='coursepage-add-button btn btn-primary' onClick={(e) => {
-            window.location.href = `http://localhost:3000/newcourse/${university}`
+            window.location.href = `https://gl0git.github.io/NoteSharingAppFrontend/#/newcourse/${university}`
           }}>Add new course</button>
         </div>
       </div>

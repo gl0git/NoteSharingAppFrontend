@@ -19,9 +19,9 @@ function Navbar(props){
                     <li>NoteShare</li>
                 </div>
                 <div className='right'>
-                    <li><a href='http://localhost:3000/'>Home</a></li>
-                    <li><a href='http://localhost:3000/login'>User: {props.user}</a></li>
-                    <li><a href='http://localhost:3000/' onClick={logOut}>Sign Out</a></li>
+                    <li><a href='https://gl0git.github.io/NoteSharingAppFrontend/'>Home</a></li>
+                    <li><a href='https://gl0git.github.io/NoteSharingAppFrontend/#/login'>User: {props.user}</a></li>
+                    <li><a href='https://gl0git.github.io/NoteSharingAppFrontend/' onClick={logOut}>Sign Out</a></li>
                 </div>
             </ul>
         </div>
@@ -35,9 +35,9 @@ function Navbar(props){
                     <li>NoteShare</li>
                 </div>
                 <div className='right'>
-                    <li><a href='http://localhost:3000/'>Home</a></li>
-                    <li><a href='http://localhost:3000/login'>Login</a></li>
-                    <li><a href='http://localhost:3000/signup'>Signup</a></li>
+                    <li><a href='https://gl0git.github.io/NoteSharingAppFrontend/'>Home</a></li>
+                    <li><a href='https://gl0git.github.io/NoteSharingAppFrontend/#/login'>Login</a></li>
+                    <li><a href='https://gl0git.github.io/NoteSharingAppFrontend/#/signup'>Signup</a></li>
                 </div>
             </ul>
         </div>

@@ -6,7 +6,7 @@ function Note(props){
 
     return (
         <div className='note'>
-            <a className='note-title' href={`http://localhost:3000/note/${id}`}>{title}</a>
+            <a className='note-title' href={`https://gl0git.github.io/NoteSharingAppFrontend/#/note/${id}`}>{title}</a>
             <div className='note-credit'>By: {user}</div>
         </div>
     )

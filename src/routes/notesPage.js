@@ -42,7 +42,7 @@ function NotesPage() {
       <div className='notepage-content-section'>
       <h1 className='notepage-title'>{`${course} Notes`}</h1>
       <button className=' add-note-button btn btn-primary' onClick={(e) => {
-            window.location.href = `http://localhost:3000/newnote/${university}`
+            window.location.href = `https://gl0git.github.io/NoteSharingAppFrontend/#/newnote/${university}`
             }}>Add new note</button>
       <div className='notes-container'>
         {Notes?.map((note, index) => {

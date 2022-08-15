@@ -34,7 +34,7 @@ function SearchbarDropdown(props){
               key={index}
               onClick={(e) => {
                 inputRef.current.value = option;
-                window.location.href = `http://localhost:3000/${page}/${option}${hrefAdditionals}`
+                window.location.href = `https://gl0git.github.io/NoteSharingAppFrontend/#/${page}/${option}${hrefAdditionals}`
               }}
               className="list-group-item list-group-item-action"
             >
