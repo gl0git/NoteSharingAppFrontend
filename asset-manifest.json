@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/NoteSharingAppFrontend/static/css/main.7002ae86.css",
-    "main.js": "/NoteSharingAppFrontend/static/js/main.aeb0453e.js",
+    "main.js": "/NoteSharingAppFrontend/static/js/main.ff01bb46.js",
     "index.html": "/NoteSharingAppFrontend/index.html",
     "main.7002ae86.css.map": "/NoteSharingAppFrontend/static/css/main.7002ae86.css.map",
-    "main.aeb0453e.js.map": "/NoteSharingAppFrontend/static/js/main.aeb0453e.js.map"
+    "main.ff01bb46.js.map": "/NoteSharingAppFrontend/static/js/main.ff01bb46.js.map"
   },
   "entrypoints": [
     "static/css/main.7002ae86.css",
-    "static/js/main.aeb0453e.js"
+    "static/js/main.ff01bb46.js"
   ]
 }
