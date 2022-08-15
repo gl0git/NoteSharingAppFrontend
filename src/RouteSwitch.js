@@ -1,4 +1,4 @@
-import { HashRouter, BrowserRouter, Routes, Route, useParams } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
 import CoursePage from './routes/coursePage'
 import CourseSubmit from './routes/courseSubmit'
@@ -11,7 +11,7 @@ import SignUpPage from './routes/signUp'
 const RouteSwitch = () => {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path='/' element={<App />} />
                 <Route path='/login' element={<LoginPage />} />
@@ -22,7 +22,7 @@ const RouteSwitch = () => {
                 <Route path='/newnote/:university' element={<NoteSubmit />} />
                 <Route path='/note/:id' element={<NotePage />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
