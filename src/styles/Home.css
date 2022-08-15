@@ -1,0 +1,44 @@
+*{
+
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#university-dropdown {
+    width: 30%;
+}
+
+#home-content-section {
+    background-image: url('https://i.pinimg.com/564x/9b/98/57/9b9857c340a57b7f0c66c598ee70fec4.jpg');
+    /* background-color: #afcadd; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 28vh;
+    height: 90vh;
+    width: 100%;
+}
+
+#home-header {
+    font-size: 60px;
+    color: #051933;
+}
+
+#home-subheader {
+    color: #555687;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+

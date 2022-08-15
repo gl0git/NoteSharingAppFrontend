@@ -1,0 +1,64 @@
+.course-submit-page {
+    background-image: url('https://i.pinimg.com/564x/9b/98/57/9b9857c340a57b7f0c66c598ee70fec4.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-submit-page h1 {
+    font-size: 60px;
+    color: #051933;
+}
+
+.course-submit-page h2 {
+    color: #555687;
+    font-size: 20px;
+}
+
+.course-submit-content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 60vh;
+    margin: 200px;
+}
+
+.course-submit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.note-submit-page {
+    background-image: url('https://i.pinimg.com/564x/9b/98/57/9b9857c340a57b7f0c66c598ee70fec4.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.note-submit-page h1 {
+    font-size: 60px;
+    color: #051933;
+}
+
+.note-submit-page h2 {
+    color: #555687;
+    font-size: 20px;
+}
+
+.note-submit-content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 60vh;
+    margin: 200px;
+}
+
+.note-submit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

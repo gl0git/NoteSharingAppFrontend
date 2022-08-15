@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    padding: 30px;
+    width: 100%;
+    background: #051933;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.navbar-content {
+    color: #ffff;
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}

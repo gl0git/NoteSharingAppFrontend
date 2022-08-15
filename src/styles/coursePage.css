@@ -1,0 +1,44 @@
+*{
+
+}
+
+.coursePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coursepage-dropdown {
+    width: 30%;
+}
+
+.coursepage-content-section {
+    background-image: url('https://i.pinimg.com/564x/9b/98/57/9b9857c340a57b7f0c66c598ee70fec4.jpg');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 28vh;
+    height: 90vh;
+    width: 100%;
+}
+
+.coursepage-header {
+    font-size: 60px;
+    color: #051933;
+}
+
+.coursepage-subheader {
+    color: #555687;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.course-search-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}

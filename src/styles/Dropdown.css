@@ -1,0 +1,5 @@
+.search-bar-dropdown {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

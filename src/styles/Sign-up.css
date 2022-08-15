@@ -1,0 +1,60 @@
+.signUp-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/564x/9b/98/57/9b9857c340a57b7f0c66c598ee70fec4.jpg');
+}
+
+#signUp-form {
+    width: 400px;
+    margin: 10%;
+    padding: 40px;
+    top: 50%;
+    border-radius: 20px;
+    background: #051933;
+    text-align: center;
+}
+
+#signUp-form h1 {
+    color: white;
+    font-weight: 500;
+}
+
+#signUp-form input[type='text'],#signUp-form input[type='password']{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+#signUp-form input[type='text']:focus,#signUp-form input[type='password']:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+#signUp-form input[type='submit']{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#signUp-form input[type='submit']:hover{
+    background: #3498db;
+}
